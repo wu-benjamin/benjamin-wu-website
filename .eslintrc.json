@@ -39,6 +39,7 @@
             "error",
             "always"
         ],
-        "react/jsx-uses-react": 2
+        "react/jsx-uses-react": 2,
+        "@next/next/no-img-element": "off"
     }
 }

@@ -2,3 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.page-body {
+    flex: 1;
+}
+
+.nav-item {
+    border-width: 0px;
+    padding: 0px 6px 2px 6px;
+    border-bottom-width: 3px;
+    margin-bottom: -3px;
+    border-color: rgb(153 246 228); /* tailwind border-teal-200 */
+}
+
+.nav-item:hover {
+    /* border-top-width: 3px;
+    margin-top: -3px; */
+    border-color: rgb(190 24 93); /* tailwind border-pink-700 */
+}
+
+/* 
+    #adadad gray
+    #00ccff light blue
+    #a50d7d magenta
+    #3234b8 dark blue
+    #15dab1 teal
+*/
